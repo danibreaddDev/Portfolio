@@ -15,6 +15,10 @@ hr {
   margin-left: 20rem;
   margin-top: 8rem;
 }
+.navbar-nav{
+  margin-top: 2rem;
+
+}
 
 .navbar-nav {
   gap: 5rem;
@@ -78,14 +82,10 @@ hr {
   box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
 }
-
-#perfil {
-  padding-top: 10rem;
-}
 #perfil, h1{
     color: rgb(0, 123, 255);
 }
-#experiencia,
+#tecnologias,
 .d-flex .flex-wrap {
   gap: 2rem;
 }
