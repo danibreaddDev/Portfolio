@@ -14,18 +14,19 @@
   .btn-primary {
     margin: 0.5rem;
   }
-  
+
 }
 @media only screen and (max-width: 600px) {
-    /* Ajustar el tamaño de las imágenes */
-    img {
-      width: 30px;
-      height: 30px;
-    }
-  
-    /* Ajustar el diseño de las columnas */
-    .d-flex.flex-wrap {
-      flex-direction: column;
-      align-items: center;
-    }
+  img {
+    width: 30px;
+    height: 30px;
   }
+
+  .d-flex.flex-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  #sobremi,.bg-dark.border {
+    padding: 10px;
+  } 
+}

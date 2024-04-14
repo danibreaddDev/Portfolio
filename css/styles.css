@@ -10,7 +10,7 @@ body {
 }
 hr {
   border: none;
-  border-top: 1px solid rgba(38, 40, 40, 255);
+  border-top: 2px solid rgba(38, 40, 40, 255);
   margin-right: 20rem;
   margin-left: 20rem;
   margin-top: 8rem;
@@ -21,6 +21,9 @@ hr {
 }
 .nav-link {
   color: whitesmoke;
+}
+.nav-link:hover{
+    color: rgb(0, 123, 255);
 }
 .btn,
 .btn-primary {
@@ -61,7 +64,7 @@ hr {
   /*border: black 0.1rem solid;*/
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-  transform: translateY(-2px);
+  transform: translateY(-5px);
 }
 
 .btn,
@@ -79,7 +82,18 @@ hr {
 #perfil {
   padding-top: 10rem;
 }
+#perfil, h1{
+    color: rgb(0, 123, 255);
+}
 #experiencia,
 .d-flex .flex-wrap {
-    gap: 2rem;
+  gap: 2rem;
+}
+.img-fluid {
+  width: auto;
+  height: auto;
+}
+#sobremi,
+h1 {
+  color: rgb(0, 123, 255);
 }
