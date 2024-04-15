@@ -4,6 +4,10 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+  /*ir a cada seccion del nav mas fluido*/
+}
 body {
   font-family: "M PLUS 1 Code", monospace;
   background-color: rgba(23, 22, 25, 255);
