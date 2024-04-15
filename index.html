@@ -28,13 +28,16 @@
       >
         <ul class="navbar-nav bg-dark rounded">
           <li class="nav-item">
+            <a class="nav-link" href="#sobremi">Sobre Mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#tecnologias">Tecnologías</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#proyectos">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sobremi">Sobre Mí</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contacto">Contacto</a>
@@ -62,6 +65,14 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
+              <a class="nav-link" href="#sobremi" onclick="Menu()">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tecnologias" onclick="Menu()"
+                >Experiencia</a
+              >
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#tecnologias" onclick="Menu()"
                 >Tecnologías</a
               >
@@ -70,9 +81,6 @@
               <a class="nav-link" href="#proyectos" onclick="Menu()"
                 >Proyectos</a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sobremi" onclick="Menu()">Sobre Mí</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contacto" onclick="Menu()">Contacto</a>
@@ -84,14 +92,6 @@
     <!-- perfil section -->
     <section id="perfil" class="pt-5">
       <div class="pt-5">
-        <div class="text-center pt-5">
-          <button
-            class="btn btn-primary btn-block mx-2"
-            onclick="window.open('https://www.linkedin.com/in/daniel-pamblanco-mestre-2085862b1/')"
-          >
-            <p class="text-grey text-center mt-3">Descarga CV</p>
-          </button>
-        </div>
         <div>
           <h1 class="text-center fw-bold display-3 mt-5">
             Daniel Pamblanco Mestre
@@ -126,7 +126,67 @@
       </div>
     </section>
     <hr />
+    <!-- sobremi section -->
+    <section id="sobremi">
+      <h1 class="text-white text-center mt-5 mb-5">SOBRE MÍ</h1>
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div
+            class="col-md-6 mt-5 bg-dark border rounded" id="estudios"
+          >
+            <h3 class="text-light text-center mt-3" style="font-size: 1.5rem">
+              Técnico Superior en Desarrollo de Aplicaciones Multiplataforma
+              (DAM)
+            </h3>
+            <h6 class="text-light text-center" style="font-size: 1rem">
+              2022 - Finalizando
+            </h6>
+            <h3 class="text-light text-center" style="font-size: 1.5rem">
+              Técnico Superior en Administración de Sistemas Informáticos en Red
+              (ASIR)
+            </h3>
+            <h6 class="text-light text-center mb-4" style="font-size: 1rem">
+              2020-2021
+            </h6>
+          </div>
 
+          <div class="col-md-6 mt-5">
+            <h1 class="text-center">Daniel Pamblanco Mestre</h1>
+            <h6 class="text-white text-center" style="font-size: 1.2rem">
+              Desarrollador de software. <br />Enfocado en ser autodidacta y
+              aprender continuamente.<br />Actualmente tengo 24 años y resido en
+              Valencia,España.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- experiencia section -->
+    <section id="experiencia">
+      <h1 class="text-white text-center mt-5 mb-5">EXPERIENCIA</h1>
+      <div class="container text-center">
+        <div class="row d-flex flex-wrap">
+          <div class="col-md-6">
+            <div class="timeline-item text-light">
+              <h3>PRACTICAS ASIR</h3>
+              <img src="assets/logo empresa.png" class="mr-3 mt-1" alt="Logo REDI"/>
+              <p class="mt-5">Trabajé en el desarrollo de una herramienta de seguimiento de red.</p>
+              <p><small>2021 - 3 MESES</small></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="timeline-item text-light">
+              <h3>PRACTICAS DAM</h3>
+              <img src="assets/LOGO-DATIUM-WEB.png" class="mr-3" alt="Logo DATIUM"/> 
+              <p>Resolución de incidencias y administración del Portal Web.</p>
+              <p><small>2024 - Presente</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
     <!-- tecnologias section -->
     <section id="tecnologias">
       <h1 class="text-white text-center mt-5 mb-5">TECNOLOGÍAS</h1>
@@ -135,7 +195,9 @@
       <h3 class="text-white text-center mb-5">Desarrollo Frontend</h3>
       <div class="d-flex flex-column align-items-center text-center mb-5">
         <div class="d-flex flex-wrap">
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/html.svg"
               alt="HTML"
@@ -144,7 +206,9 @@
             />
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">HTML</h5>
           </div>
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/css.svg"
               alt="HTML"
@@ -153,7 +217,9 @@
             />
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">CSS</h5>
           </div>
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/bootstrap.svg"
               alt="HTML"
@@ -173,7 +239,9 @@
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">JAVASCRIPT</h5>
           </div>
           -->
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/php.svg"
               alt="HTML"
@@ -182,7 +250,9 @@
             />
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">PHP</h5>
           </div>
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/twig.svg"
               alt="HTML"
@@ -191,7 +261,9 @@
             />
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">TWIG</h5>
           </div>
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/scenebuilder.svg"
               alt="HTML"
@@ -208,7 +280,9 @@
       <h3 class="text-white text-center mb-5">Desarrollo Backend</h3>
       <div class="d-flex flex-column align-items-center mb-5">
         <div class="d-flex flex-wrap">
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/java.svg"
               alt="Java"
@@ -217,7 +291,9 @@
             />
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">JAVA</h5>
           </div>
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/symfony.svg"
               alt="Java"
@@ -233,7 +309,9 @@
       <h3 class="text-white text-center mb-5">Bases de Datos</h3>
       <div class="d-flex flex-column align-items-center">
         <div class="d-flex flex-wrap mb-5">
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/postgresql.svg"
               alt="Java"
@@ -242,7 +320,9 @@
             />
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">POSTGRESQL</h5>
           </div>
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/mysql.svg"
               alt="Java"
@@ -251,7 +331,9 @@
             />
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">MYSQL</h5>
           </div>
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/phpMyAdmin.svg"
               alt="Java"
@@ -268,7 +350,9 @@
       <h3 class="text-white text-center mb-5">Desarrollo Videojuegos</h3>
       <div class="d-flex flex-column align-items-center">
         <div class="d-flex flex-wrap">
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/unity.svg"
               alt="Unity"
@@ -277,16 +361,17 @@
             />
             <h5 class="text-white mt-4 ms-4 me-4 mb-4">UNITY</h5>
           </div>
-          <div class="d-flex flexrow align-items-center bg-dark border border-white rounded">
+          <div
+            class="d-flex flexrow align-items-center bg-dark border border-white rounded"
+          >
             <img
               src="assets/Logo_C_sharp.svg.png"
               alt="Unity"
               class="img-fluid mt-3 ms-3 mb-3"
               style="width: 50px; height: 50px"
             />
-           
-              <h5 class="text-white mt-4 ms-4 me-4 mb-4">C#</h5>
-            
+
+            <h5 class="text-white mt-4 ms-4 me-4 mb-4">C#</h5>
           </div>
           <!-- añadir tecnlogias a partir de aqui-->
         </div>
@@ -364,50 +449,22 @@
       </div>
     </section>
     <hr />
-    <!-- sobremi section -->
-    <section id="sobremi">
-      <h1 class="text-white text-center mt-5 mb-5">SOBRE MÍ</h1>
-      <div class="container">
-        <div class="d-flex flex-wrap justify-content-center">
-          <div
-            class="col-md-6 mt-5 bg-dark border border-primary border-3 border-white rounded"
-          >
-            <h3 class="text-light text-center mt-3" style="font-size: 1.5rem">
-              Técnico Superior en Desarrollo de Aplicaciones Multiplataforma
-              (DAM)
-            </h3>
-            <h6 class="text-light text-center" style="font-size: 1rem">
-              2022 - Finalizando
-            </h6>
-            <h3 class="text-light text-center" style="font-size: 1.5rem">
-              Técnico Superior en Administración de Sistemas Informáticos en Red
-              (ASIR)
-            </h3>
-            <h6 class="text-light text-center mb-4" style="font-size: 1rem">
-              2020-2021
-            </h6>
-          </div>
-
-          <div class="col-md-6 mt-5 bg">
-            <h1 class="text-center">Daniel Pamblanco Mestre</h1>
-            <h6 class="text-white text-center" style="font-size: 1.2rem">
-              Desarrollador de software. <br />Enfocado en ser autodidacta y
-              aprender continuamente.<br />Actualmente tengo 24 años y resido en
-              Valencia,España.
-            </h6>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr />
     <!-- contacto section -->
     <section id="contacto">
       <h2 class="text-center text-white mt-5 mb-5">CONTACTO</h2>
-      <div class="container text-center justify-content-center">
-        <div class="d-flex flex-wrap justify-content-center">
-          <div class="col-md-2">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-2 mb-3">
             <button
-              class="btn btn-primary btn-block mb-3"
+              class="btn btn-primary btn-block"
+              onclick="window.open('https://www.linkedin.com/in/daniel-pamblanco-mestre-2085862b1/')"
+            >
+              <p class="text-grey text-center mt-3">Descarga CV</p>
+            </button>
+          </div>
+          <div class="col-md-2 mb-3">
+            <button
+              class="btn btn-primary btn-block"
               onclick="window.open('mailto:danielpamblancomestre@gmail.com')"
             >
               <img
@@ -418,7 +475,7 @@
               />
             </button>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 mb-3">
             <a
               href="https://www.linkedin.com/in/daniel-pamblanco-mestre-2085862b1/"
               target="_blank"
@@ -435,6 +492,7 @@
         </div>
       </div>
     </section>
+
     <!-- footer pagina -->
     <footer class="bg-body-tertiary text-center text-lg-start mt-5">
       <!-- Copyright -->
@@ -445,6 +503,6 @@
         >
       </div>
       <!-- Copyright -->
-    </footer> 
+    </footer>
   </body>
 </html>

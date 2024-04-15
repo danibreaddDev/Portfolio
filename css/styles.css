@@ -107,4 +107,18 @@ h1 {
   color: rgb(0, 123, 255);
 }
 
+.timeline-item {
+  padding: 20px;
+}
+.timeline-item h3 {
+  margin-top: 0;
+}
+.timeline-item img {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
 
+.timeline-item p {
+  margin-bottom: 5px;
+}
