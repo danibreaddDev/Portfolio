@@ -15,20 +15,24 @@ hr {
   margin-left: 20rem;
   margin-top: 8rem;
 }
-.navbar-nav{
+.navbar-nav {
   margin-top: 2rem;
-
 }
 
 .navbar-nav {
-  gap: 5rem;
+  gap: 1rem;
 }
 .nav-link {
-  color: whitesmoke;
+  color: #ffffff;
+  transition: color 0.3s, background-color 0.3s, transform 0.3s;
 }
-.nav-link:hover{
-    color: rgb(0, 123, 255);
+
+.nav-link:hover {
+  color: #ffffff; /* Color de la letra blanco */
+  background-color: #555555;
+  transform: scale(1.1);
 }
+
 .btn,
 .btn-primary {
   width: 8rem;
@@ -82,8 +86,9 @@ hr {
   box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
 }
-#perfil, h1{
-    color: rgb(0, 123, 255);
+#perfil,
+h1 {
+  color: rgb(0, 123, 255);
 }
 #tecnologias,
 .d-flex .flex-wrap {
