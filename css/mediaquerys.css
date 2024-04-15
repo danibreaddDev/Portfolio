@@ -14,7 +14,6 @@
   .btn-primary {
     margin: 0.5rem;
   }
-
 }
 @media screen and (max-width: 1159px) {
   .d-flex.flex-wrap {
@@ -24,7 +23,6 @@
   #sobremi,.bg-dark.border {
     padding: 10px;
   } 
-
 }
 
 @media screen and (min-width: 991px) {
@@ -46,19 +44,17 @@
   .btn-primary {
     margin: 0.5rem;
   }
-
 }
 @media only screen and (max-width: 600px) {
-  img {
-    width: 30px;
-    height: 30px;
-  }
-
   .d-flex.flex-wrap {
     flex-direction: column;
     align-items: center;
   }
   #sobremi,.bg-dark.border {
     padding: 10px;
-  } 
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
